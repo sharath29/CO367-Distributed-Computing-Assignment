@@ -50,10 +50,10 @@ Below are the steps to reproduce the project results.
 1. Install docker for ubuntu [link](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 2. Check installation status:  
 ```
-$ docker
-A self-sufficient runtime for containers
+$ docker  
+A self-sufficient runtime for containers  
 
-Options:
+Options:  
       --config string      Location of client config files (default "/home/sharath/.docker")
   -D, --debug              Enable debug mode
   -H, --host list          Daemon socket(s) to connect to

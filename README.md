@@ -6,7 +6,7 @@ You can use the [editor on GitHub](https://github.com/sharath29/dc-project/edit/
 ## What is the project about?
 Service discovery
 
-## What is serf and consul?
+## What is serf ?
 Serf is a tool for cluster membership, failure detection, and orchestration that is decentralized, fault-tolerant and highly available. Serf runs on every major platform: Linux, Mac OS X, and Windows. It is extremely lightweight: it uses 5 to 10 MB of resident memory and primarily communicates using infrequent UDP messages.  
 
 Serf uses an efficient gossip protocol to solve three major problems:  
@@ -16,6 +16,9 @@ Serf uses an efficient gossip protocol to solve three major problems:
 -Failure detection and recovery: Serf automatically detects failed nodes within seconds, notifies the rest of the cluster, and executes handler scripts allowing you to handle these events. Serf will attempt to recover failed nodes by reconnecting to them periodically.
 
 -Custom event propagation: Serf can broadcast custom events and queries to the cluster. These can be used to trigger deploys, propagate configuration, etc. Events are simply fire-and-forget broadcast, and Serf makes a best effort to deliver messages in the face of offline nodes or network partitions. Queries provide a simple realtime request/response mechanism.
+
+## What is consul ?
+
 
 ## What is gossip protocol?
 Add from hashicorp
@@ -50,21 +53,30 @@ Options:
 ```
 
 ### Setting up serf-nodes
-1. Build docker image from source `$ docker build -t sharath/serfnode` .
-2. Source rc file `$ . .rcSerfnode`
-3. Start cluster of 5 serfnodes `$ serf-start-cluster 5`
-4. Enter in bash shell of serfnode4 `$ docker exec -i -t serfnode4 /bin/bash`
-5. Check Service discovery `root@serfnode4:/# serf members`
-6. Access primary serfnode webserver `root@serfnode4:/# curl http://172.17.0.99`
-7. Open new terminal and force stop serfnode0 `$ docker stop serfnode0`
-8. Check Service dicovery and status of serfnode0 from serfnode4 `root@serfnode4:/# serf members`
-9. Access new primary serfnode webserver `root@serfnode4:/# curl http://172.17.0.99`
+
+1. Build docker image from source `$ docker build -t sharath/serfnode`.
+2. Source rc file `$ . .rcSerfnode`.
+3. Start cluster of 5 serfnodes `$ serf-start-cluster 5`.
+4. Enter in bash shell of serfnode4 `$ docker exec -i -t serfnode4 /bin/bash`.
+5. Check Service discovery `root@serfnode4:/# serf members`.
+6. Access primary serfnode webserver `root@serfnode4:/# curl $SERF_JOIN_IP`.
+7. Open new terminal and force stop serfnode0 `$ docker stop serfnode0`.
+8. Check Service dicovery and status of serfnode0 from serfnode4 `root@serfnode4:/# serf members`.
+9. Access new primary serfnode webserver `root@serfnode4:/# curl $SERF_JOIN_IP`.
+10. Note: `$SERF_JOIN_IP` is passed as environmental variable when creating serfnode container instance.
 
 ### Setting up consul-nodes
 
-1. steps
-2. involved
-3. build consul image
+1. Build docker image from source `$ docker build -t sharath/consulnode`.
+2. Source rc file `$ . .rcConsulnode`.
+3. Start cluster of 5 serfnodes `$ consul-start-cluster 5`.
+4. Enter in bash shell of serfnode4 `$ docker exec -i -t consulnode4 /bin/bash`.
+5. Check Service discovery `root@consulnode4:/# consul members`.
+6. Access primary serfnode webserver `root@consulnode4:/# curl $CON_JOIN_IP`.
+7. Open new terminal and force stop consulnode0 `$ docker stop consulnode0`.
+8. Check Service dicovery and status of serfnode0 from serfnode4 `root@consulnode4:/# consul members`.
+9. Access new primary serfnode webserver `root@consulnode4:/# curl $CON_JOIN_IP`.
+10. Note: `$CON_JOIN_IP` is passed as environmental variable when creating serfnode container instance.
 
 
 

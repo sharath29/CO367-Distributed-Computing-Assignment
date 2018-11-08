@@ -100,12 +100,13 @@ Options:
 
 ## Comparison and logs
 
+We have created cluster containing 10 nodes of each serfnode and cluster nodes. Analysing the cpu utilisation of the serfnode cluster with consulnode cluster.  
 <p align="center">
   <img width="480" height="400" src="images/cpu-utilization.jpeg"><br>
   <a align="center"> CPU Utilization</a>
 </p>
 
-
+Analysing the total time elapsed for creating a cluster containing 10 nodes for both serfnode and consul node.
 <p align="center">
   <img width="480" height="400" src="images/time-setup.jpeg"><br>
   <a align="center"> Time Ellapsed</a>
@@ -114,3 +115,13 @@ Options:
 
 ## References
 
+[1] Distributed system of microservices using docker (<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7217926&tag=1" target="blank">
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7217926&tag=1</a>)
+
+[2] Docker installation (<a href="https://github.com/docker/swarm/" target="blank">https://github.com/docker/swarm/</a>)
+
+[3] Serf (<a href="https://www.serf.io/" target="blank">https://www.serf.io/</a>)
+
+[4] Consul (<a href="https://www.consul.io/" target="blank">https://www.consul.io/</a>)
+
+[5] Service discovery (<a href="https://www.nginx.com/blog/service-discovery-in-a-microservices-architecture/" target="blank">https://www.nginx.com/blog/service-discovery-in-a-microservices-architecture/</a>)

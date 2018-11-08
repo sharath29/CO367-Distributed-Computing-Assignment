@@ -52,7 +52,7 @@ Below are the steps to reproduce the project results.
 
 ```
 $ docker
-A self-sufficient runtime for containers <br> 
+A self-sufficient runtime for containers 
 
 Options:
       --config string      Location of client config files (default "/home/sharath/.docker")

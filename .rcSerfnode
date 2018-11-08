@@ -25,7 +25,7 @@ serf-start-first() {
   CMD="docker run -d -e ROLE=$ROLE $DOCKER_OPTS --name ${NODE_PREFIX}0 -h ${NODE_PREFIX}0.$MYDOMAIN $IMAGE"
   debug $CMD
   $CMD
-  docker exec ${NODE_PREFIX}0 /usr/sbin/service apache2 start
+  # docker exec ${NODE_PREFIX}0 /usr/sbin/service apache2 start
   docker exec ${NODE_PREFIX}0 /usr/local/serfnode/bin/attachIP.sh
 }
 

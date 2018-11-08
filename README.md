@@ -49,11 +49,12 @@ Below are the steps to reproduce the project results.
 
 1. Install docker for ubuntu [link](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 2. Check installation status:  
-```
-$ docker  
-A self-sufficient runtime for containers  
 
-Options:  
+```
+$ docker
+A self-sufficient runtime for containers <br> 
+
+Options:
       --config string      Location of client config files (default "/home/sharath/.docker")
   -D, --debug              Enable debug mode
   -H, --host list          Daemon socket(s) to connect to
@@ -67,7 +68,6 @@ Options:
       --tlskey string      Path to TLS key file (default "/home/sharath/.docker/key.pem")
       --tlsverify          Use TLS and verify the remote
   -v, --version            Print version information and quit
-
 ```
 
 ### Setting up serf-nodes

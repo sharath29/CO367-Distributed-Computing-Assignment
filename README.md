@@ -1,30 +1,30 @@
-## Welcome to GitHub Pages
+## Distributed System of Micro Services
+<report abstract>
 
 You can use the [editor on GitHub](https://github.com/sharath29/dc-project/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### What is the project about?
 
-### Markdown
+### What is serf and consul?
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### What is gossip protocol?
+
+### Steps to reproduce
+
+Below are the steps to reproduce the project results.
 
 ```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+# Installing Docker
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
+1. steps 'sudo apt install get project'
+2. involved
 
 [Link](url) and ![Image](src)
 ```
+
+### Comparison and logs
+
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 

@@ -15,7 +15,7 @@ Below are the steps to reproduce the project results.
 
 ```markdown
 
-# Installing Docker
+### Installing Docker
 
 1. steps 'sudo apt install get project'
 2. involved

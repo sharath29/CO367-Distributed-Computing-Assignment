@@ -11,7 +11,7 @@ Components of service discovery:
 3. **Service registry**: It maintains the latest location of providers.
 
 <p align="center">
-  <img width="480" height="400" src="https://github.com/sharath29/dc-project/blob/master/images/service-discovery.jpeg"><br>
+  <img width="480" height="400" src="images/service-discovery.jpeg"><br>
   <a align="center"> Service Discovery </a>
 </p>
 
@@ -101,13 +101,13 @@ Options:
 ## Comparison and logs
 
 <p align="center">
-  <img width="480" height="400" src="https://github.com/sharath29/dc-project/blob/master/images/cpu-utilization.jpeg"><br>
+  <img width="480" height="400" src="images/cpu-utilization.jpeg"><br>
   <a align="center"> CPU Utilization</a>
 </p>
 
 
 <p align="center">
-  <img width="480" height="400" src="https://github.com/sharath29/dc-project/blob/master/images/time-setup.jpeg"><br>
+  <img width="480" height="400" src="images/time-setup.jpeg"><br>
   <a align="center"> Time Ellapsed</a>
 </p>
 

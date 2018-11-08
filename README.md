@@ -75,7 +75,7 @@ Options:
 
 ### Setting up serf-nodes
 
-1. Build docker image from source `$ docker build -t . sharath/serfnode`.
+1. Build docker image from source `$ docker build -t sharath/serfnode .`
 2. Source rc file `$ . .rcSerfnode`.
 3. Start cluster of 5 serfnodes `$ serf-start-cluster 5`.
 4. Enter in bash shell of serfnode4 `$ docker exec -i -t serfnode4 /bin/bash`.

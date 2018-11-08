@@ -39,7 +39,7 @@ The key features of Consul are:
 
 ## What is gossip protocol?
 A gossip protocol is a distributed communication paradigm inspired by the gossip phenomenon that can be observed
-in social networks. Initially born to efficiently disseminate information, as its human counterpart, it has been later used to solve several other problems, such as failure detection, data aggregation, distributed topology construction, resource allocation
+in social networks. Initially born to efficiently disseminate information, as its human counterpart, it has been later used to solve several other problems, such as failure detection, data aggregation, distributed topology construction, resource allocation. Gossip protocols tend to be used in contexts where both the scale and the dynamism of the underlying communication network make the adoption of traditional communication protocols highly unpractical.  
 
 ## Steps to reproduce
 

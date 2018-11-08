@@ -17,7 +17,7 @@ Below are the steps to reproduce the project results.
 
 ### Installing Docker
 
-1. 'sudo apt install get project'
+1. '''sudo apt install get project'''
 2. involved
 
 [Link](url) and ![Image](src)

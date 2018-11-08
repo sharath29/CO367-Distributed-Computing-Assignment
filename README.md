@@ -10,6 +10,11 @@ Components of service discovery:
 2. **Service consumer**: It gets the location of a provider from registry, and then talks to the provider
 3. **Service registry**: It maintains the latest location of providers.
 
+<p align="center">
+  <img width="480" height="400" src="https://github.com/sharath29/dc-project/blob/master/images/service-discovery.jpeg"><br>
+  <a align="center"> Service Discovery </a>
+</p>
+
 ## What is serf ?
 Serf is a tool for cluster membership, failure detection, and orchestration that is decentralized, fault-tolerant and highly available. Serf runs on every major platform: Linux, Mac OS X, and Windows. It is extremely lightweight: it uses 5 to 10 MB of resident memory and primarily communicates using infrequent UDP messages.  
 
@@ -33,7 +38,8 @@ The key features of Consul are:
 3. **KV Store**: Applications can make use of Consul's hierarchical key/value store for any number of purposes, including dynamic configuration, feature flagging, coordination, leader election, and more. The simple HTTP API makes it easy to use.
 
 ## What is gossip protocol?
-Add from hashicorp
+A gossip protocol is a distributed communication paradigm inspired by the gossip phenomenon that can be observed
+in social networks. Initially born to efficiently disseminate information, as its human counterpart, it has been later used to solve several other problems, such as failure detection, data aggregation, distributed topology construction, resource allocation
 
 ## Steps to reproduce
 
@@ -94,6 +100,16 @@ Options:
 
 ## Comparison and logs
 
+<p align="center">
+  <img width="480" height="400" src="https://github.com/sharath29/dc-project/blob/master/images/cpu-utilization.jpeg"><br>
+  <a align="center"> CPU Utilization</a>
+</p>
+
+
+<p align="center">
+  <img width="480" height="400" src="https://github.com/sharath29/dc-project/blob/master/images/time-setup.jpeg"><br>
+  <a align="center"> Time Ellapsed</a>
+</p>
 
 
 ## References

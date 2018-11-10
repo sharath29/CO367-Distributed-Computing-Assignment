@@ -50,13 +50,13 @@ Below are the steps to reproduce the project results.
 
 ### Files
 
-.rcSerfnode - shell scrip file containing commands to form serfnode cluster and clean the clusters.  
+1. .rcSerfnode - shell scrip file containing commands to form serfnode cluster and clean the clusters.  
 
-.rcConsulnode - shell script file containing commands to form consulnode cluster and clean the cluster.  
+2. .rcConsulnode - shell script file containing commands to form consulnode cluster and clean the cluster.  
 
-Dockerfile - docker file to build serfnode image.  
+3. Dockerfile - docker file to build serfnode image.  
 
-Consulnode image is pulled from the dockerhub - docker pull progrium/consul.  
+4. Consulnode image is pulled from the dockerhub - docker pull progrium/consul.  
 
 ### Installing Docker
 

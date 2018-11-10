@@ -48,6 +48,16 @@ Gossip protocols tend to be used in contexts where both the scale and the dynami
 
 Below are the steps to reproduce the project results.
 
+### Files
+
+.rcSerfnode - shell scrip file containing commands to form serfnode cluster and clean the clusters.  
+
+.rcConsulnode - shell script file containing commands to form consulnode cluster and clean the cluster.  
+
+Dockerfile - docker file to build serfnode image.  
+
+Consulnode image is pulled from the dockerhub - docker pull progrium/consul.  
+
 ### Installing Docker
 
 1. Install docker for ubuntu [link](https://docs.docker.com/install/linux/docker-ce/ubuntu/)

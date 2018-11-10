@@ -78,7 +78,7 @@ Options:
                            "/home/sharath/.docker/ca.pem")
       --tlscert string     Path to TLS certificate file (default
                            "/home/sharath/.docker/cert.pem")
-      --tlskey string      Path to TLS key file (default "/home/sharath/.docker/key.pem")
+      --tlskey string      Path to TLS key file (default ".docker/key.pem")
       --tlsverify          Use TLS and verify the remote
   -v, --version            Print version information and quit
 ```

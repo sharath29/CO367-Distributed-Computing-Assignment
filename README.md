@@ -1,3 +1,5 @@
+[View on GithubPages](https://sharath29.github.io/CO367-Distributed-Computing-Assignment/)
+
 # Distributed System of Micro Services
 This project aims to solve the problem of distributed system of microservices using  Serfnode. Through this project, we focus on enhancing the original solution and plans to steer the implementation in that direction. We try to address the aspects of service registration, service discovery and availability concerns in a small distributed system of microservices. Also, the service registration and service discovery of Ubuntu Docker images and failover capabilities between them is successfully demonstrated. Finally, we  analyse the solution and compare it with classical service discovery solutions with respect to time to recognize failure, space in terms of agents to operate successfully and service availability.
 
